@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.header {
+  background: #485696;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  width: 30em;
+}
+.container {
+  padding: 40px 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border: 5px solid rgb(190, 190, 190, 0);
+  box-shadow: 0 0 15px rgba(100, 100, 100, 0.3);
+  flex-direction: column;
+  width: 30em;
+}
+.container input {
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 12px 20px;
+  margin: 20px;
+  border: 0;
+  background: #485696;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+input {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid #485696;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+input:focus {
+  border-bottom: 2px solid #485696;
+  outline: none;
+}
+#download-btn {
+  padding: 12px 20px;
+  margin: 20px;
+  border: 0;
+  background: #485696;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#qr-img {
+  display: none;
+}
+#img {
+  display: none;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid rgb(190, 190, 190, 0);
+}
+.container2 {
+  display: none;
+  align-content: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+#filename {
+  padding: 12px 20px;
+  margin: 20px;
+  width: 200px;
+}

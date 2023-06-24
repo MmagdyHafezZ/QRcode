@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QrCode Gen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family = Poppins: 400, 500, 600, 700&display = swap"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1>QR Code Generator</h1>
+    </div>
+    <div class="container">
+      <input
+        type="text"
+        id="text"
+        placeholder="Enter text to generate QR Code"
+      />
+      <button id="generate" onclick="generateQR()">Generate</button>
+      <div id="qrcode">
+        <span class="error"></span><br />
+        <img src="" id="img" />
+      </div>
+      <div class="container2" id="container2">
+        <input type="text" id="filename" placeholder="Enter filename" />
+        <a id="download" download="">
+          <button id="download-btn">Download</button>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
